@@ -11,7 +11,7 @@ import {
 import { isFunction, makeStateUpdater } from '../utils'
 
 export interface GlobalFilterTableState {
-  globalFilter: any
+  globalFilter: unknown
 }
 
 export interface GlobalFilterColumnDef {
